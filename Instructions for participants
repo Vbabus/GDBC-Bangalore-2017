@@ -1,10 +1,12 @@
 VSTS URL: https://globaldevopsbootcamp.visualstudio.com/
 
 Bangalore VSTS Teams
+--------------------
   Presenter: GDBC-Bangalore-user001@globaldevopsbootcamp.onmicrosoft.com
   Participants: GDBC-Bangalore-user0XX@globaldevopsbootcamp.onmicrosoft.com
   
 VSTS Team Projects and Users (4 users per VSTS Team Projects)
+-------------------------------------------------------------
   Team Project: GDBC-Bangalore-Team02
   Users       : GDBC-Bangalore-user002, GDBC-Bangalore-user003, GDBC-Bangalore-user004 & GDBC-Bangalore-user005
 
@@ -23,6 +25,7 @@ NOTE: PLEASE USE YOUR ASSIGNED PROJECTS ONLY, YOU CAN SEE OTHER TEAM PROJECTS BU
 
 
 Github URLs
+------------
 Challenge 1: https://github.com/GlobalDevOpsBootcamp/challenge1
 Challenge 2: https://github.com/GlobalDevOpsBootcamp/challenge2
 Challenge 3: https://github.com/GlobalDevOpsBootcamp/challenge3
@@ -43,3 +46,7 @@ To Create Service Principal
 -------------------------------- 
 az ad sp create-for-rbac --name {appId} --password "{strong password}"
 
+
+Survey URL
+----------
+http://xpir.it/gdbc-survey
