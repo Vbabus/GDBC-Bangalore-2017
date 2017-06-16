@@ -1,0 +1,19 @@
+
+Docker commands
+---------------
+docker build . -t <image name>
+docker run -p 80:80 -d --name <container name> <image name>
+docker inspect --format '{{.NetworkSettings.Networks.nat.IPAddress}}' <container name>
+
+MSBuild arguments
+-----------------
+/p:DeployOnBuild=true;PublishProfile=CustomProfile /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.stagingDirectory)/Provisioning/Docker"
+
+ImageName: <VENUENAME><TEAMNAME>.azurecr.io/mvcmusicstore:$(Build.BuildId)
+ContainerName: mvcmusicstore
+
+### Add task: Run a Docker command (stop container)
+* Add another Agent phase
+* Add a Docker task (the one with the whale icon)
+* Change the name of the task to: ```Run a Docker command (stop container)
+
