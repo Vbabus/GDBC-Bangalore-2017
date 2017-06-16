@@ -1,0 +1,45 @@
+VSTS URL: https://globaldevopsbootcamp.visualstudio.com/
+
+Bangalore VSTS Teams
+  Presenter: GDBC-Bangalore-user001@globaldevopsbootcamp.onmicrosoft.com
+  Participants: GDBC-Bangalore-user0XX@globaldevopsbootcamp.onmicrosoft.com
+  
+VSTS Team Projects and Users (4 users per VSTS Team Projects)
+  Team Project: GDBC-Bangalore-Team02
+  Users       : GDBC-Bangalore-user002, GDBC-Bangalore-user003, GDBC-Bangalore-user004 & GDBC-Bangalore-user005
+
+  Team Project: GDBC-Bangalore-Team03
+  Users       : GDBC-Bangalore-user006, GDBC-Bangalore-user007, GDBC-Bangalore-user008 & GDBC-Bangalore-user009
+  
+  Team Project: GDBC-Bangalore-Team04
+  Users       : GDBC-Bangalore-user010, GDBC-Bangalore-user011, GDBC-Bangalore-user012 & GDBC-Bangalore-user013
+  
+  Team Project: GDBC-Bangalore-Team05
+  Users       : GDBC-Bangalore-user014, GDBC-Bangalore-user015, GDBC-Bangalore-user016 & GDBC-Bangalore-user017
+  
+So on ....
+NOTE: PLEASE USE YOUR ASSIGNED PROJECTS ONLY, YOU CAN SEE OTHER TEAM PROJECTS BUT REFRAIN FROM USING THEM
+
+
+
+Github URLs
+Challenge 1: https://github.com/GlobalDevOpsBootcamp/challenge1
+Challenge 2: https://github.com/GlobalDevOpsBootcamp/challenge2
+Challenge 3: https://github.com/GlobalDevOpsBootcamp/challenge3
+
+
+
+ 
+To create ServiceEndpoints for Azure in VSTS, use following values
+    Connection name				      : AzureSubscription
+    Environment					        : AzureCloud
+    Subscription ID				      : b56b776c-c57f-40e9-afcb-0de084ad213f
+    Subscription Name			      : Free Trial
+    Service Principal Client ID	: 2f8a52f9-ab5e-4989-82c0-7a4f07763118
+    Service Principal Key		    : P2ssw0rd
+    Tenant ID					          : 93019fb4-f045-4b77-9943-0163ad6f35f8
+    
+To Create Service Principal 
+-------------------------------- 
+az ad sp create-for-rbac --name {appId} --password "{strong password}"
+
