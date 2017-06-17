@@ -1,3 +1,8 @@
+****************************
+TWEET about the event: #gdbc
+****************************
+
+
 VSTS URL: https://globaldevopsbootcamp.visualstudio.com/
 
 Bangalore VSTS Teams
@@ -23,6 +28,10 @@ So on ....
 NOTE: PLEASE USE YOUR ASSIGNED PROJECTS ONLY, YOU CAN SEE OTHER TEAM PROJECTS BUT REFRAIN FROM USING THEM
 
 
+****************************
+TWEET about the event: #gdbc
+****************************
+
 
 Github URLs
 ------------
@@ -46,6 +55,9 @@ To Create Service Principal
 -------------------------------- 
 az ad sp create-for-rbac --name {appId} --password "{strong password}"
 
+****************************
+TWEET about the event: #gdbc
+****************************
 
 Survey URL
 ----------
